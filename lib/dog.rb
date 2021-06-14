@@ -19,7 +19,7 @@ class Dog
   end
   
   def self.print_all
-    @@all.each {|puppy| puts puppy.split("@")}
+    @@all.each {|puppy| puts puppy.name}
   end
   
   def self.clear_all
