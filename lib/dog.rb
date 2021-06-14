@@ -1,6 +1,8 @@
 # Add your code here
 class Dog
   
+  attr_reader :name
+  
   @@all = []
   
   def initialize(name)
@@ -19,7 +21,7 @@ class Dog
   end
   
   def self.print_all
-    @@all.map {|puppy| puts puppy.@name}
+    @@all.map {|puppy| puts puppy.name}
   end
   
   def self.clear_all
