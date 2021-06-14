@@ -6,6 +6,8 @@ class Dog
   def initialize(puppy)
     @puppy = puppy
     
+    save
+
   end
   
   def save
@@ -19,3 +21,8 @@ class Dog
   def self.print_all
     @@all.each {|puppy| puts puppy}
   end
+  
+  def self.clear_all
+    
+  
+end
